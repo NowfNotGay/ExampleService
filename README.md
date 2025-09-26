@@ -127,6 +127,6 @@ Solution gồm các **tầng chính**:
 ---
 
 ## 📌 Ghi chú
-- Các dự án trong **Applications** và **Services** đều reference **BuildingBlocks** để dùng chung Authentication, Options, và Database context.  
+- Các dự án trong **Applications** đều reference **BuildingBlocks** để dùng chung Authentication, Options.  
 - API Gateway (**Gateways.Ocelot**) chỉ thực hiện **reverse proxy** và không tham chiếu trực tiếp các service.  
-- Các service giao tiếp với nhau thông qua **Messaging (MassTransit)** thay vì gọi trực tiếp.  
+

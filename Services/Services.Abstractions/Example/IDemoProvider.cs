@@ -8,5 +8,11 @@ using System.Threading.Tasks;
 namespace Services.Abstractions.Example;
 public interface IDemoProvider
 {
-    Demo GetDemo(); 
+    Demo GetDemo();
+    string Get();
+    string Post();
+    string Put(int id);
+    string Delete(int id);
+    string Patch(int id);
+    object GetJson(int id);
 }

@@ -1,4 +1,5 @@
 using BuildingBlocks.Options.DependenciesInjection.PublisherOptions;
+using BuildingBlocks.Options.DependenciesInjection.WebAppOptions.DemoAPI;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,7 +19,6 @@ var app = builder.Build();
 
 app.UseSwagger();
 app.UseSwaggerUI();
-
 
 app.UseHttpsRedirection();
 

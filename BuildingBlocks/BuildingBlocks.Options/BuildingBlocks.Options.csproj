@@ -15,5 +15,8 @@
 	<ItemGroup>
 	  <ProjectReference Include="..\..\Services\Services.Messaging\Services.Messaging.csproj" />
 	</ItemGroup>
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
 
 </Project>

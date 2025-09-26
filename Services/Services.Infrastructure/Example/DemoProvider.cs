@@ -19,4 +19,18 @@ public class DemoProvider : IDemoProvider
             BirthDay = new DateTime(2003, 4, 27)
         };
     }
+
+    public string Get() => "Demo Get từ Provider";
+    public string Post() => "Demo Post từ Provider";
+    public string Put(int id) => $"Demo Put id={id} từ Provider";
+    public string Delete(int id) => $"Demo Delete id={id} từ Provider";
+    public string Patch(int id) => $"Demo Patch id={id} từ Provider";
+
+    public object GetJson(int id) => new
+    {
+        Id = id,
+        Name = $"Demo {id}",
+        Status = "Active",
+        CreatedDate = DateTime.UtcNow
+    };
 }

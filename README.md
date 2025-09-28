@@ -3,7 +3,7 @@
 **Tech Stack:** 🟦 .NET 8 · 🗄️ SQL Server · 🍃 MongoDB · 🐘 PostgreSQL · ⚡ Dapper · ⏰ Hangfire Pro · 🚪 Ocelot · 📨 MassTransit · ✅ FluentValidation
 
 ## 🏗 Kiến trúc tổng quan
-`ExampleService` được xây dựng theo mô hình **Clean Architecture + DDD**, kết hợp **.NET 8**, **SQL Server**, **MongoDB**, **Postgres**, cùng các thư viện hỗ trợ như **Dapper**, **MassTransit**, **Hangfire Pro**, và **Ocelot API Gateway**.  
+`ExampleService` được xây dựng theo mô hình **Clean Architecture**, kết hợp **.NET 8**, **SQL Server**, **MongoDB**, **Postgres**, cùng các thư viện hỗ trợ như **Dapper**, **MassTransit**, **Hangfire Pro**, và **Ocelot API Gateway**.  
 
 Solution gồm các **tầng chính**:
 
